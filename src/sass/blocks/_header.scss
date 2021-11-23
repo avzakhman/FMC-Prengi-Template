@@ -1,0 +1,32 @@
+.header{
+    height: 85px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+    }
+    &__country{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        min-width: 169px;
+        max-height: 100%;
+        &__flag {
+            width: 28px;
+            height: 100%;
+            margin-right: 12px;
+        }
+        &__name {
+            font-size: 14px;
+            font-weight: 700;
+            margin-top: -3px;
+            margin-bottom: 1px;
+        }
+        &__info {
+            letter-spacing: -0.5px;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 17px;
+        }
+    }
+}

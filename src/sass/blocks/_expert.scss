@@ -1,0 +1,76 @@
+.expert {
+    height: 889px;
+    min-width: 1140px;
+    background: url("../../img/bg2.png") center/cover no-repeat;
+    &__experts {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        h2 {
+            @include heading;
+        }
+        &_macbook {
+            top: 268px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+        }
+    }
+    &__controls {
+        top: 168px;
+        position: absolute;
+        width: 843px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid white;
+        background-color: rgba($color: #000000, $alpha: 0);
+        border-radius: 4px;
+        a {
+            
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 16.5px 27px;
+            margin: 6px 0;
+            border-right: 1px solid#8e908d;
+            &:hover {
+                color: #00c2f0;
+            }
+        }
+    }
+}
+.secslider {
+    margin-top: 140px;
+    width: 695;
+    height: 460px;
+    &_element {
+        margin-left: 1px;
+        z-index: 20;
+        width: 695px;
+        height: 460px;
+    }
+    .slick-track {
+        display: flex;
+    }
+    .slick-list {
+        overflow: hidden;
+    }
+    .slick-dots {
+        margin-left: -75px;
+        top: 168px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        li {
+            list-style: none;
+        }
+        button {
+            width: 175px;
+            height: 64px;
+        }
+    }
+}

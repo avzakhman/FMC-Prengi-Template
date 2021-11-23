@@ -1,0 +1,24 @@
+@import 'base/mixins';
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.06s;
+}
+.content{
+    width: 1140px;
+    margin: 0 auto;
+    &__footer {
+        width: 1140px;
+    }
+}
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/startpage';
+@import 'blocks/advantages';
+@import 'blocks/expert';
+@import 'blocks/yoursector';
+@import 'blocks/variants';
+@import 'blocks/start';
+@import 'blocks/footer';
